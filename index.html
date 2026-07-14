@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <link rel="stylesheet" href="index.css">
     
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
@@ -14,7 +12,7 @@
     <title>Lista de Tarefas</title>
 </head>
 
-<body class="bg-zinc-900 texte-zinc-100">
+<body class="bg-zinc-900 text-zinc-100">
     
     <div class="flex flex-col items-center mt-32">
 
@@ -22,8 +20,8 @@
 
         <div class="flex items-center mt-4">
             <input type="text" id="newTask" placeholder="insira sua tarefa" 
-            class="bg-zinc-800 p-2 w-[400px] outline-none rounded-lg"/ style="color: azure;">
-            <button onclick="addTask()" class="pg-sky-600 p-2 rounded-lg ml-2 hover bg-sky-700" style="color: beige;">Adicionar</button>
+            class="bg-zinc-800 p-2 w-[400px] outline-none rounded-lg" style="color: azure;">
+            <button onclick="addTask()" class="bg-sky-600 p-2 rounded-lg ml-2 hover bg-sky-700" style="color: beige;">Adicionar</button>
         </div>
 
         <ul id="taskList" style="color: azure;">

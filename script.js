@@ -5,7 +5,7 @@ function addTask() {
     if(taskInput.value.trim() != "") {
         var newTask = document.createElement("li")
         newTask.className ="group flex items-center justify-between p-2 border-b w-[400px]"
-        newTask.innerHTML = "<span>" + taskInput.value.trim() + "</span>" + "<button class='text-red-500 hidden group-hover:block' onclick='removeTask(this)'>Exlcuir</button>"
+        newTask.innerHTML = "<span>" + taskInput.value.trim() + "</span>" + "<button class='text-red-500 hidden group-hover:block' onclick='removeTask(this)'>Excluir</button>"
 
         tasklist.appendChild(newTask)
         taskInput.value = ""
